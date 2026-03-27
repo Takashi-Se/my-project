@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cmd /c \"gh repo list --limit 100 --json name,url,defaultBranchRef\")",
+      "Bash(cmd /c \"gh --version\")",
+      "Bash(powershell -Command \"gh --version\")"
+    ]
+  }
+}
